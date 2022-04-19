@@ -8,7 +8,6 @@ phases:
          #Install php7.1
          apt-get update
          apt-get install -y  software-properties-common
-         LC_ALL=C.UTF-8 add-apt-repository -y ppa:ondrej/php
          apt-get update
 
          # Install PHP
