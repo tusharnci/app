@@ -3,7 +3,7 @@ phases:
  install:
    commands:
      - |
-         export DEBIAN_FRONTEND=noninteractive
+        
 
          #Install php7.1
          apt-get update
