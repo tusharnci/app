@@ -29,9 +29,7 @@ phases:
                   php7.3-curl \
                   unzip
 
-         #Enable xdebug - phpunit uses this for code coverage
-         phpenmod xdebug
-
+      
      # Start Mysql if you need it
      # - apt-get install -y mysql-server
      # - su mysql -s /bin/bash -c "/usr/sbin/mysqld" &
