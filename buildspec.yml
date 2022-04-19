@@ -1,13 +1,8 @@
-version: 0.2
-
+version: 0.1
 phases:
   pre_build:
     commands:
-      - pip install pillow
+      - composer install
   build:
     commands:
-      - python -m unittest discover -s app
-artifacts:
-  files:
-    - '**/*'
-  base-directory: app
+      - phpunit tests
